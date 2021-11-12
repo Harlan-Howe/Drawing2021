@@ -206,9 +206,10 @@ public class DrawingFrame extends JFrame implements ActionListener, ListSelectio
                     Shape shapeToAdd = null;
                     if (type.equals("Rect"))
                     {
-
                         shapeToAdd = new Rect(parts); // deactivated until you create a Rect class.
                     }
+                    //TODO: add similar "if" statement blocks here to the four preceeding lines to make other shape
+                    //    types, once you've made those classes.
 
                     System.out.println(shapeToAdd);
                     if (shapeToAdd != null)
