@@ -3,6 +3,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+/**
+ * This is a custom control that lets the user select a color... basically when you press the button, it calls up
+ * swing's ColorChooser.
+ */
 public class ColorWell extends JButton implements ActionListener
 {
     private Color myColor;
